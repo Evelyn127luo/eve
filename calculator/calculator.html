@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Area of Rectangle</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            <h4>Area of a Rectangle</h4>
+        </legend>
+
+        length: <input type="text" id="length" size="4" maxlength="4">
+        height: <input type="text" id="height" size="4" maxlength="4">
+
+        <br><br>
+
+        <button onclick="areaCalculator()" id="calculate">Calculate</button>
+        Area: <input type="text" id="answer" size="6" maxlength="6">
+        <button onclick="clearAll()" id="clear">Clear</button>
+
+    </fieldset>
+</body>
+<script src="calculator.js"></script>
+</html>

@@ -1,0 +1,23 @@
+table, th, td {
+    border: thin solid;
+    margin: 10px;
+    padding: 5px;
+    font-family: consolas;
+}
+caption {
+    border: thin solid;
+    padding: 5px;
+    color: #00f;
+    font-size: large;
+}
+/*hohohoho*/
+th {
+    color: #260783;
+    background-color: rgb(208, 208, 247);
+}
+
+tr:nth-of-type(2n+2){
+    background-color: #260783;
+    color: #fff;
+}
+

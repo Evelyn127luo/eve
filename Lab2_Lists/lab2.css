@@ -1,0 +1,22 @@
+h1 {
+    background-color: rgb(142, 199, 233);
+    text-align: center;
+}
+
+ul {
+    list-style-type: disc;
+    color: #00f;
+    font-weight: bolder;
+}
+
+ul ul {
+    list-style-type: square;
+    color: #f00;
+    font-weight: bolder;
+}
+
+ul ul ul {
+    list-style-type: circle;
+    color: #000;
+    font-weight: 100;
+}

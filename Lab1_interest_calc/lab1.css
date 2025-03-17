@@ -1,0 +1,21 @@
+h1 {
+    color: #0000ff;
+    font-size: 180%;
+}
+
+body {
+    background-color: #d1d1d1;
+    line-height: 0.5em;
+}
+
+#Deposit {
+    background-color: #cbebff;
+}
+
+#Interest {
+    background-color: #cbebff;
+}
+
+#button {
+    background-color: #ff0;
+}

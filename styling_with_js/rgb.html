@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RGB</title>
+</head>
+<style>
+    .red {background-color: #f15b5b; color: #fff;}
+    .green {background-color: #62f662; color: #fff;}
+    .blue {background-color: #5252ee; color: #fff;}
+    body {
+    display: table-cell;
+    font-family: consolas;
+    }
+</style>
+<body>
+    <fieldset>
+        <legend>RGB Colors</legend>
+        <input type="radio" name="answer" value="Red">Red
+        <input type="radio" name="answer" value="Green">Green
+        <input type="radio" name="answer" value="Value">Blue
+        <br>
+        <input type="button" value="Get Color" onclick="getColor()" >
+        <input type="text" id="color" class="rgb">
+    </fieldset>
+</body>
+<script>
+    function getColor(){
+        var colorVector = document.getElementsByName('answer')
+        if(colorVector[0].checked){
+            document.getElementById('color').value = colorVector[0].value
+            document.getElementById('color').className = 'red'
+        }
+        else if(colorVector[1].checked){
+            document.getElementById('color').value = colorVector[1].value
+            document.getElementById('color').className = 'green'
+        }
+        else if(colorVector[2].checked){
+            document.getElementById('color').value = colorVector[2].value
+            document.getElementById('color').className = 'blue'
+        }
+        else {
+            alert('\nPlease select a color!\n')
+        }
+        //.check method also works on checkbox inputs
+    }
+</script>
+</html>

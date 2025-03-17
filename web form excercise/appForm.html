@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="appForm.css">
+    <title>Application form</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+
+            <h3>Application Form</h3>
+           
+            <label for="fname">First Name: </label>
+            <input type="text" id="fname" size="15" maxlength="30" value=" ">
+            &nbsp&nbsp&nbsp&nbsp&nbsp
+            <label for="lname">Last Name: </label>
+            <input type="text" id="lname" size="15" maxlength="30" value=" "><br> 
+                 
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob">
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <label for="age">Age: </label>
+            <input type="number" id="age"><br>
+                    
+            <label for="gender">Gender: </label>
+            <select name="gender" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Nonbinary">Nonbinary</option>
+                <option value="Other">Other</option>
+                <option value="NA">Prefer not to say</option>
+            </select>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" placeholder="Enter personal email"><br>
+                
+            <label for="pos">Positions Available: </label>
+            <input type="radio" value="jr" name="answer" id="pos">Junior Developer
+            <input type="radio" value="mid" name="answer" id="pos">Mid-Level Developer
+            <input type="radio" value="sr" name="answer" id="pos">Senior Developer
+                
+            <br>
+            <label for="lang">Programming Languages: </label>
+            <input type="checkbox" id="lang">Java
+            <input type="checkbox" id="lang">JavaScript
+            <input type="checkbox" id="lang">Python
+            
+            <br>
+
+            <label for="pw">Password: </label>
+            <input type="password" id="pw" size="15" maxlength="30">
+            &nbsp&nbsp&nbsp&nbsp
+            <label for="pw">Confirm Password: </label>
+            <input type="password" id="pw2" size="15" maxlength="30"><br>
+
+            <div class="btn">
+            <input type="Submit" onclick="submitInfo()" id="submit"> |
+            <input type="button" value="Reset" onclick="resetInfo()" id="reset">
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+<script src="appForms.js"></script>
+</html>

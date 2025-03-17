@@ -1,0 +1,33 @@
+body {
+    font-family: consolas;
+}
+
+img {
+    border: thick solid;
+}
+
+table {
+    border: thin solid;
+}
+
+thead, th {
+    padding: 10px;
+    background-color: #f27171;
+}
+
+th {
+    border: thin solid;
+}
+
+tbody th {
+    background-color: #f6fda3;
+}
+
+tbody, td{
+    padding: 15px;
+    background-color: #d6adf8;
+}
+
+td {
+    border: thin solid;
+}

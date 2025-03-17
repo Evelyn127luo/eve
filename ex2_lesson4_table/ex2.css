@@ -1,0 +1,28 @@
+table {
+    border: thin solid;
+    border-color: #fff;
+    font-family: consolas;
+    padding: 10px;
+    margin: 10px;
+}
+
+thead {
+    background-color: #ff7a7a;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+tbody th{
+    background-color: rgb(155, 155, 207);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+tbody tr {
+    background-color: #b6b6b6;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+}

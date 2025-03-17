@@ -1,0 +1,24 @@
+body {
+    font-family: consolas;
+    display: table-cell;
+}
+
+legend {
+    text-align: center;
+}
+
+#calculate {
+    background-color: #c691f2;
+}
+
+#clear {
+    background-color: #ffa1a1;
+}
+
+#answer {
+    background-color: #ffffb7;
+}
+
+#height, #length {
+    background-color: rgb(196, 217, 255);
+}

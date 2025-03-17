@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<style>
+    body {
+        display: table-cell;
+
+    }
+</style>
+<body>
+    <fieldset>
+        <legend>Menu</legend>
+        <input type="checkbox" id="burger" name="answer"> 
+        <label for="burger">Burger: </label> $9.99
+        <br>
+        <input type="checkbox" id="fries" name="answer">
+        <label for="fries">Fries: </label> $4.99
+        <br>
+        <input type="checkbox" id="salad" name="answer">
+        <label for="salad">Salad: </label> $2.75
+        <br>
+        <input type="checkbox" id="pop" name="answer">
+        <label for="pop">Pop: </label>  $1.99
+        <br>
+        <input type="checkbox" id="ap" name="answer">
+        <label for="ap">Apple Pie: </label> $3.25
+        <br>
+        <input type="checkbox" id="ic" name="answer">
+        <label for="ic">Ice Cream: </label> $2.99
+        <br>
+    </fieldset>
+    <input type="button" value="price" onclick="totalPrice()">
+    <input type="text" id="price">
+</body>
+<script>
+    function totalPrice(){
+        var totalPrice = 0.00;
+        var prices = [9.99, 4.99, 2.75, 1.99, 3.25, 2.99]
+        var selection = document.getElementsByName("answer")
+
+        for (let index = 0; index < selection.length; index++){
+            const element = selection[index];
+            if(element.checked){
+                totalPrice = totalPrice + prices[index]
+            }
+        }
+        document.getElementById("price").value = totalPrice + " $"
+    }
+</script>
+</html>
+

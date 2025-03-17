@@ -1,0 +1,28 @@
+body {
+    font-family: consolas;
+    display: table-cell;
+}
+
+fieldset {
+    background-color: #e7e7e7;
+    text-align: justify;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+.btn {
+    text-align: center;
+}
+
+#submit {
+    background-color: #c8acfd;
+}
+
+#reset {
+    background-color: #ccbf81;
+}
+
+

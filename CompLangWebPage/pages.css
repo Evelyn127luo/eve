@@ -1,0 +1,33 @@
+button {
+    color: #e3dd;
+    border-color: #e6c7e6;
+}
+
+body{
+    background-color: #e6c7e6;
+    font-family: consolas;
+}
+
+h1 {
+    background-color: #dc9adc;
+    color: #fff;
+    padding: 5px;
+}
+
+.table {
+    display: table;
+    border: thin solid;
+    padding: 5px;
+}
+
+.cell {
+    display: table-cell;
+    border: thin solid;
+    padding: 5px;
+}
+
+.rows {
+    display: table-row;
+    border: thin solid;
+    padding: 5px;
+}

@@ -1,0 +1,16 @@
+body{
+    font-family: consolas;
+    display: table-cell;
+}
+
+legend {
+    text-align: center;
+}
+
+#details{
+    background-color: #c9faa1;
+}
+
+#opinion {
+    background-color: #9de6b9;
+}

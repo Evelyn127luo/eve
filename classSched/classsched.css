@@ -1,0 +1,32 @@
+table {
+    border: thin solid;
+    font-family: consolas;
+}
+
+
+thead {
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+   
+}
+
+tbody:nth-of-type(2n+2) {
+    text-align: center;
+    margin: 10px;
+    padding: 15px;  
+    background-color: #6d9fee; 
+}
+
+tr:first-child{
+    background-color: #b0d0fb;
+    text-align: center;
+}
+
+th {
+    border: thin solid;
+    text-align: center;
+    color: #fff;
+    background-color: #3867b4;
+}
+

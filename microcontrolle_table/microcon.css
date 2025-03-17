@@ -1,0 +1,24 @@
+table {
+    border: thin solid;
+    font-family: consolas;
+    margin: 10px;
+    padding: 0px;
+}
+
+caption {
+    color: rgb(156, 28, 248);
+}
+
+tbody th {
+    background-color: #e495e4;
+}
+
+th {
+    border: thin solid;
+    padding: 5px;
+}
+
+td {
+    border: thin solid;
+    padding: 5px;
+}
